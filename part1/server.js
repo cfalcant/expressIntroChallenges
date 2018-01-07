@@ -26,7 +26,7 @@ app.get('/create/:name', function(req, res) {
 });
 
 // ### Challenge 3:
-Create a GET route for "/" that returns the index.html file.
+// Create a GET route for "/" that returns the index.html file.
    app.get('/', function (req, res) {
      res.sendFile(path.join(__dirname, './', 'index.html'));
    });
